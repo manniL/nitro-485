@@ -1,0 +1,15 @@
+{
+  "name": "nitro-bug-unstorage-fs-no-registration",
+  "private": true,
+  "scripts": {
+    "dev": "nitro dev",
+    "build": "nitro build",
+    "build:vercel": "cross-env NITRO_PRESET=vercel nitro build"
+  },
+  "devDependencies": {
+    "nitropack": "latest"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
